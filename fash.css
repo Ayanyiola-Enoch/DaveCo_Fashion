@@ -1,0 +1,133 @@
+.hero{
+    background: url("/img/overflow.jpg") no-repeat;
+    background-size: 130%;
+    height: 100vh;
+    background-position: right;
+    padding-top: 50px;
+    /* width: 100vw; */
+}
+.hero h1{
+    width: 790px;
+    font-size: 46px;
+    font-weight: lighter;
+    /* text-align: center; */
+    padding: 150px;
+    line-height: 0.9;
+}
+.hero span{
+    font-size: 72px;
+    font-weight: bold;
+    transition: 1s;
+}
+.hero span:hover{
+    font-size: 82px;
+    cursor: pointer;
+    color: gray;
+}
+.section1{
+    height: 110vh;
+}
+.section2{
+    height: 120vh;
+    margin-top: 90px;
+}
+.pro{
+    border: 2px solid grey;
+    flex-direction: column;
+    height: 520px;
+}
+.pro img{
+    width: 430px;
+}
+
+.flexs img{
+    width: 810px;
+}
+.flexs p{
+    width: 300px;
+}
+
+.flexs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.section5{
+    background-color: white;
+    padding: 60px;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.text5 h4.hello{
+    /* color: #1f305b; */
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.section5 h4{
+    color: black;
+    font-size: 21px;
+}
+p.hel{
+    width: 400px;
+}
+.text5 p{
+    color: black;
+}
+.section5 ul li{
+    list-style: none;
+    padding: 10px 0px 3px 0px;
+}
+.section5 li a{
+    text-decoration: none;
+    color: black;
+}
+.text5 h4{
+    margin-bottom: 19px;
+}
+a.map{
+    color: #6d9bcf;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sect5 .pmap{
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+.logoo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+.logoo ul{
+    display: flex;
+    gap: 19px;
+}
+.sect5 .image6{
+    width: 168px;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px;
+}
+
+.footer small{
+    margin-left: 70px;
+    font-weight: 540;
+    font-size: 14px;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    na
+    .ul a{
+        display: none;
+    }
+}
+
