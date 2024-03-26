@@ -1,1 +1,3 @@
 github-- Uijosh20               
+assignment- after comitting a file and getting a version, look for how to roll back to the previous version with the updated one.
+- what does git rm --cached do
