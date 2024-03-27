@@ -1,4 +1,13 @@
 github-- Uijosh20               
 
 assignment- after comitting a file and getting a version, look for how to roll back to the previous version with the updated one.
-- what does git rm --cached do
+- what does git rm --cached do?
+
+The git rm --cached <file> command is used to remove files from the staging area (index) without deleting them from the working directory. This is useful when you want to stop tracking a file that is already being tracked by Git. For example, if you accidentally add a large file or a file containing sensitive information to your repository, you can use this command to remove it from tracking without deleting the file from your local machine.
+
+
+
+Restoring or Updating Previous Versions
+git checkout <commit_hash> -- <file>: Restores a specific file to its state at the specified commit. Replace <commit_hash> with the hash of the commit you want to restore the file from, and <file> with the path to the file.
+
+git revert <commit_hash>: Creates a new commit that undoes the changes made in the specified commit. This is a safe way to undo changes, as it doesn't alter the existing commit history.

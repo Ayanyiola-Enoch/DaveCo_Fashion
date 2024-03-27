@@ -123,9 +123,21 @@ a.map{
 }
 
 @media screen and (max-width:480px) {
-    na
-    .ul a{
+    
+    /*.ul a{
+         display: none; 
+    }*/
+    .sect5{
         display: none;
+    }
+    .hero{
+        background-image: none;
+        background-color: #f8f8f8;
+        
+    }
+    .hero h1{
+        width: 0px;
+        padding: 30px;
     }
 }
 
